@@ -247,7 +247,7 @@ class ZhihuAccount(object):
 
 
 if __name__ == '__main__':
-    USERNAME = "+8617826807096"
-    PASSWORD = "a123456"
+    USERNAME = "+86" # 账号
+    PASSWORD = "" # 密码
     account = ZhihuAccount()
     account.login(username=USERNAME, password=PASSWORD, load_cookies=True)
